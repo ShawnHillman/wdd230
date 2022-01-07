@@ -9,13 +9,13 @@
 
 body {
     display: grid;
-    grid-template: 300px auto 100px / 1fr 480px 1fr;
+    grid-template: auto auto 100px / 1fr 400px 1fr;
 }
 header {
     grid-column-start: 2;
     padding-left: 25px;
     display: grid;
-    grid-template: 50px 1fr 50px / auto 1fr;
+    grid-template: 50px 1fr 75px / auto 1fr;
 }
 header * {
     grid-row-start: 2;
@@ -29,11 +29,21 @@ footer {
     align-self: end;
 }
 
+img {
+    width: 175px;
+    max-height: 100%;
+}
 h1 {
     font-size: 30px;
+    font-weight: 700;
+}
+#my-name {
+    margin-left: 15px;
+    margin-bottom: -8px;
 }
 h2 {
     font-size: 20px;
+    font-weight: 500;
 }
 ul {
     list-style: none;
@@ -45,6 +55,6 @@ ul li {
 }
 footer p {
     font-size: 12px;
-    margin: 25px 0 25px 25px;
+    margin: 25px 0 25px;
     line-height: 20px;
 }
