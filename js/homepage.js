@@ -5,6 +5,6 @@ window.onload = function() {
 
 function getTodaysDate() {
     const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-    document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+    document.getElementById('lastModified').textContent = document.lastModified;
     document.getElementById('currentYear').textContent = new Date().getFullYear();
 }
