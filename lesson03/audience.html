@@ -10,8 +10,10 @@
 
     <title>Audience - Site Plan | Chamber of Commerce</title>
 
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="css/laptop-style.css">
 </head>
 
 <body>
@@ -21,48 +23,69 @@
         <img id="header-logo" src="images/chamber-logo-mixed.png">
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="#" class="active">Audience</a>
-        <a href="color.html">Color</a>
-        <a href="type.html">Type</a>
+        <a href="index.html">
+            <div class="nav-link">Home</div>
+        </a>
+        <a href="#">
+            <div class="nav-link active">Audience</div>
+        </a>
+        <a href="color.html">
+            <div class="nav-link">Color</div>
+        </a>
+        <a href="type.html">
+            <div class="nav-link">Type</div>
+        </a>
     </nav>
     <main>
         <section>
-            <h3>Audience</h3>
+            <div class="undl">
+                <h3>Audience</h3>
+            </div>
             <p id="site-audience">The primary audience will be college-aged young adults who are looking to start a business.</p>
             <p id="sa-age"><span class="bold">Ages: </span>20 - 35</p>
             <p id="sa-gender"><span class="bold">Gender: </span>Both</p>
             <p id="sa-race"><span class="bold">Race: </span>All</p>
             <p id="sa-person"><span class="bold">Personality: </span>Driven, Hardworking, Intelligent, Thoughtful</p>
         </section>
-        <section>
-            <h3>Personas</h3>
+        <section id="personas">
+            <div class="undl">
+                <h3>Personas</h3>
+            </div>
             <div class="persona">
                 <img id="persona-stephen" src="images/stephen.jpg">
-                <p class="p-name">Stephen</p>
-                <p class="p-age">29</p>
-                <p class="p-bio">Starting his small business. Needs help with marketing, brand awareness, client growth, and business credibility.</p>
+                <div class="p-info">
+                    <p class="p-name">Stephen</p>
+                    <p class="p-age">29</p>
+                    <p class="p-bio">Starting his small business. Needs help with marketing, brand awareness, client growth, and business credibility.</p>
+                </div>
             </div>
             <div class="persona">
                 <img id="persona-vanessa" src="images/vanessa.jpg">
-                <p class="p-name">Vanessa</p>
-                <p class="p-age">25</p>
-                <p class="p-bio">Starting her small business. Needs help with networking, advertising, and advocacy.</p>
+                <div class="p-info">
+                    <p class="p-name">Vanessa</p>
+                    <p class="p-age">25</p>
+                    <p class="p-bio">Starting her small business. Needs help with networking, advertising, and advocacy.</p>
+                </div>
             </div>
         </section>
         <section>
-            <h3>Scenarios</h3>
-            <p><span class="bold">1. </span>A young woman wants to start a custom embroidery business. However, she finds that the client-base for custom embroidery in East Idaho isn't as large as she would have hoped. She hopes to find some way to collaborate with other businesses so she can receive more business opportunities.
+            <div class="undl">
+                <h3>Scenarios</h3>
+            </div>
+            <p><span class="num">1. </span>A young woman wants to start a custom embroidery business. However, she finds that the client-base for custom embroidery in East Idaho isn't as large as she would have hoped. She hopes to find some way to collaborate with other businesses so she can receive more business opportunities.
             </p>
-            <p><span class="bold">2. </span>A young man want to expand his car washing detailing business to where he can hire employees and take on multiple cars at a time. He wants to make business connections with other entrepreneurs for a reliable and steady source of business advice.
+            <p><span class="num">2. </span>A young man want to expand his car washing detailing business to where he can hire employees and take on multiple cars at a time. He wants to make business connections with other entrepreneurs for a reliable and steady source of business advice.
             </p>
-            <p><span class="bold">3. </span>A couple of business partners just launched their business, but find in their field, customers are very particular about the quality of their service. The business partners now hope to find a way to improve their business's credibility within the community.</p>
-            <p><span class="bold">4. </span>Although, her business is going very well, a young woman is having trouble growing her business outside of her immediate area, as advertising is not her strong suit. She needs a way to improve her marketing so she can increase her margins. </p>
-            <p><span class="bold">5. </span>A young man hopes to create actual change within his community with his small business. He needs a way to connect with other businesses and gain a voice in his local government to help direct his vision for change. </p>
+            <p><span class="num">3. </span>A couple of business partners just launched their business, but find in their field, customers are very particular about the quality of their service. The business partners now hope to find a way to improve their business's credibility within the community.
+            </p>
+            <p><span class="num">4. </span>Although, her business is going very well, a young woman is having trouble growing her business outside of her immediate area, as advertising is not her strong suit. She needs a way to improve her marketing so she can increase her margins.
+            </p>
+            <p><span class="num">5. </span>A young man hopes to create actual change within his community with his small business. He needs a way to connect with other businesses and gain a voice in his local government to help direct his vision for change.
+            </p>
         </section>
     </main>
     <footer>
-        
+        <p>&copy; Peak Chamber of Commerce | February 2022<br>All Rights Reserved.</p>
     </footer>
 
     <script type="text/javascript" src="js/script.js"></script>

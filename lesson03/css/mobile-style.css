@@ -1,3 +1,230 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
 
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+body > * {
+    max-width: 500px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, .pd {
+    font-family: "Playfair Display", Times, serif;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #858585;
+}
+h3 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+h3, h4, h5, h6, p, a {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.px48 {
+    font-size: 48px;
+}
+.px36 {
+    font-size: 36px;
+}
+.px24 {
+    font-size: 24px;
+}
+p {
+    line-height: 1.4em;
+    margin-bottom: 15px;
+}
+
+header {
+    margin-top: 50px;
+    position: relative;
+}
+#header-logo {
+    width: 8em;
+    opacity: 75%;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #656565;
+}
+#site-name {
+    font-family: "Playfair Display", Times, serif;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    padding: 0;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+nav div {
+    margin: auto;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    display: block;
+    color: #252525;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+div.active {
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+section {
+    margin: 60px 0 0;
+    padding: 0;
+}
+.undl {
+    margin: 0 0 20px;
+}
+section h3 {
+    display: inline;
+    border-bottom: 1px solid #858585;
+}
+#site-logos img {
+    max-width: 300px;
+    display: block;
+}
+
+footer {
+    max-width: 100%;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+}
+footer p {
+    font-family: "Playfair Display", Times, serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*  AUDIENCE.HTML   */
+
+.persona img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.p-info {
+    max-width: 200px;
+    margin: 20px 0 40px;
+}
+.p-info p {
+    margin: 10px 0;
+}
+.p-name {
+    display: inline;
+    font-size: 18px;
+    font-weight: 500;
+}
+.p-age {
+    display: inline;
+    margin-left: 20px
+}
+.num {
+    font-weight: 600;
+    padding-right: 10px
+}
+
+
+/*  COLOR.HTML   */
+
+
+h4 {
+    margin-bottom: 20px;
+}
+.color {
+    border: 1px solid #656565;
+    width: 40px;
+    height: 40px;
+}
+#_ffffff {
+    background-color: #ffffff;
+}
+#_f5f5f5 {
+    background-color: #f5f5f5;
+}
+#_a5a5a5 {
+    background-color: #a5a5a5;
+}
+#_252525 {
+    background-color: #252525;
+}
+#_27598e {
+    background-color: #27598e;
+}
+#_94b2d1 {
+    background-color: #94b2d1;
+}
+#_f27f58 {
+    background-color: #f27f58;
+}
+#_ffcea4 {
+    background-color: #ffcea4;
+}
+
+
+/*  AUDIENCE.HTML   */
+
+
+.type-size, .type-weight {
+    font-size: 12px;
+}
+.reg-rom {
+    font-weight: 400;
+}
+.bold-rom {
+    font-weight: 700;
+}
+.reg {
+    font-weight: 400;
+}
+.med {
+    font-weight: 500;
+}
+.semi {
+    font-weight: 600;
+}
