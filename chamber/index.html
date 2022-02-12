@@ -25,8 +25,8 @@
 
 <body>
     <header>
-        <div id="header1">
-            <img id="header-logo" src="images/chamber-logo-mixed.png" alt="Peak Chamber logo in blue and coral">
+        <img id="header-logo" src="images/chamber-logo-mixed.png" alt="Peak Chamber logo in blue and coral">
+        <div class="h">
             <h1>Peak</h1>
             <h2>Chamber of Commerce</h2>
         </div>
@@ -47,8 +47,8 @@
                 </a>
             </div>
         </nav>
-        <div>
-            <p id="header-date"></p>
+        <p id="header-date"></p>
+        <div id="social-links">
             <a href="#">
                 <img class="social-icon" src="images/fb.jpg" alt="Peak Chamber Facebook page link">
             </a>
@@ -58,43 +58,46 @@
         </div>
     </header>
     <main>
-        <section class="place-holder">
+        <section class="place-holder" id="m-hero">
             <h3 class="ph-text">Hero: Site Name + Call to Action</h3>
         </section>
-        <section class="place-holder">
+        <section class="place-holder" id="m-event">
             <h3 class="ph-text">Event</h3>
         </section>
-        <section class="place-holder">
+        <section class="place-holder" id="m-weather">
             <h3 class="ph-text">Weather</h3>
         </section>
-        <section class="place-holder">
+        <section class="place-holder" id="m-news">
             <h3 class="ph-text">News Release</h3>
         </section>
-        <section class="place-holder">
-            <div class="ph-child">
+        <section class="place-holder" id="m-spot">
+            <div class="ph-child" id="spot1">
                 <h3 class="ph-text">Spotlight 1</h3>
             </div>
-            <div class="ph-child">
+            <div class="ph-child" id="spot2">
                 <h3 class="ph-text">Spotlight 2</h3>
             </div>
-            <div class="ph-child">
+            <div class="ph-child" id="spot3">
                 <h3 class="ph-text">Spotlight 3</h3>
             </div>
         </section>
+        <section class="place-holder" id="m-join">
+            <h3 class="ph-text">Join</h3>
+        </section>
     </main>
     <footer>
-        <section>
-            <img src="images/chamber-logo-gray.png" src="Peak Chamber logo in gray">
+        <section id="foot1">
+            <img id="footer-logo" src="images/chamber-logo-mixed.png" alt="Peak Chamber logo in gray">
             <p>Peak Chamber of Commerce</p>
             <p>123 Internet Street<br>Idaho City, Idaho</p>
             <p>info@peakchamber.org<br>(208) 123-7325</p>
             <a href="#">Map</a>
         </section>
-        <section>
+        <section id="foot2">
             <p>&copy; 2022 Peak Chamber</p>
-            <p>Shawn Hillman</p>
+            <p><b>Shawn Hillman</b></p>
             <p>WDD 230 Project</p>
-            <p>Last Modified: <span id="last-mod"></span></p>
+            <p>Last Modified: <span id="lastmod"></span></p>
         </section>
     </footer>
 
