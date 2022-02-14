@@ -5,8 +5,6 @@
     body > * {
         max-width: 1000px;
     }
-    #header-logo {
-    }
     nav {
         max-width: 100%;
         display: flex;
