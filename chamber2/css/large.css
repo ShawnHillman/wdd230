@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
 
 
 #menu-icon {
@@ -25,6 +25,9 @@
     
 
 main {
+    max-width: 1400px;
+    margin: auto;
+
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }

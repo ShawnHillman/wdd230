@@ -1,11 +1,10 @@
 @media only screen and (min-width: 780px) {
 
 
-header {
+#header-div {
     padding: 20px 50px;
-}
-header {
     display: grid;
+    
     grid-template-columns: 125px 270px auto;
     grid-template-rows: 180px 75px;
 }
