@@ -31,41 +31,6 @@ main {
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
-main section {
-    min-height: 200px;
-}
-#m-hero {
-    grid-column: 2;
-    grid-row: 1/3;
-}
-#m-news {
-    grid-column: 2;
-    grid-row: 3;
-}
-#m-event {
-    grid-column: 1;
-    grid-row: 1;
-}
-#m-weather {
-    grid-column: 1;
-    grid-row: 2;
-}
-#m-join {
-    grid-column: 1;
-    grid-row: 3;
-}
-#m-spot {
-    grid-column: 3;
-    grid-row: 1/4;
-
-    display: grid;
-}
-.ph-child {
-    height: auto;
-}
-#spot3 {
-    display: inherit;
-}
 
 
 #foot2 {
