@@ -1,5 +1,8 @@
 @media only screen and (min-width: 1080px) {
 
+body {
+    overflow-x: hidden;
+}
 
 #menu-icon {
     display: none;
@@ -28,8 +31,75 @@ main {
     max-width: 1400px;
     margin: auto;
 
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
+}
+
+#m-banners {
+    grid-column: 1/4;
+    width: 200%;
+    max-width: 200%;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+#m-hero {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    height: auto;
+    margin-top: 10px;
+    background-position-x: center;
+}
+#m-hero h3 {
+    font-size: 44px;
+    line-height: 40px;
+}
+
+#m-event {
+    grid-column: 1;
+    grid-row: 2;
+    height: 175px;
+}
+#m-weather {
+    grid-column: 1;
+    grid-row: 3;
+}
+#m-join {
+    grid-column: 1;
+    grid-row: 4;
+}
+#m-join button {
+    width: 200px
+}
+#m-join button:hover {
+    width: 300px;
+}
+#m-news {
+    grid-column: 2;
+    grid-row: 4;
+    width: 94%;
+    height: 175px;
+}
+#m-news p {
+    max-width: 600px;
+}
+#m-spot {
+    grid-column: 3;
+    grid-row: 2/5;
+
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+#spot3 {
+    display: inherit;
+}
+#m-event, #m-weather, #m-join {
+    position: relative;
+    left: 20px;
+}
+#m-spot {
+    position: relative;
+    right: 20px;
 }
 
 
