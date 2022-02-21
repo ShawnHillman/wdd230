@@ -19,3 +19,18 @@ if (today.getDay !== 1 && today.getDay !== 2) {
     document.getElementById('m-banners').style.display = "none";
     document.getElementsByTagName('main').style.gridTemplateRows = "0px 300px 300px 300px";
 }
+
+// Windchill Calculation
+
+console.log("test");
+
+var temp = 33;
+var speed = 2.5;
+var windChill = (35.74 + (0.6215 * temp))-(35.75 * Math.pow(speed,0.16)) + (0.4275*temp*Math.pow(speed,0.16));
+
+console.log(temp);
+console.log(speed);
+console.log(windChill);
+
+var windChill = Math.round(windChill);
+document.getElementById("chill-num").innerHTML = windChill;

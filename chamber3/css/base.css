@@ -105,13 +105,13 @@ main section h4 {
     font-family: "Raleway", Helvetica, sans-serif;
     text-align: center;
     font-size: 24px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 main section h5 {
     font-family: "Raleway", Helvetica, sans-serif;
     text-align: center;
     font-size: 14px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 main section p, main section td {
     font-family: "Raleway", Helvetica, sans-serif;
@@ -134,7 +134,6 @@ main section p, main section td {
     background: linear-gradient(0deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
     background: -moz-linear-gradient(0deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
     background: -webkit-linear-gradient(0deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4DC9E6", endColorstr="#210CAE", GradientType=1 );
 }
 .banner p {
     color: white;
@@ -162,7 +161,7 @@ main section p, main section td {
     padding: 0;
     height: 200px;
     max-height: inherit;
-    background-image: url("../images/members.jpg");
+    background-image: url("../images/org-small.jpg");
     background-size: cover;
     background-position-y: 38%;
     position: relative;
@@ -198,7 +197,7 @@ main section p, main section td {
     transition: padding .2s, right .2s;
 }
 #join-btn:hover {
-    padding: auto 30px;
+    padding: 5px 30px;
     right: 5px;
 }
 #join-btn:active {

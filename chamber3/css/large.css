@@ -49,6 +49,7 @@ main {
     height: auto;
     margin-top: 10px;
     background-position-x: center;
+    background-image: url("../images/org-large.jpg");
 }
 #m-hero h3 {
     font-size: 44px;
