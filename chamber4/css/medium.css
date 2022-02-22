@@ -132,7 +132,7 @@ nav {
 #gallery-wrap {
     max-width: 1200px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 .column {
     width: 50%;
