@@ -127,4 +127,20 @@ nav {
 }
 
 
+/*      Discover Image Gallery     */
+
+#gallery-wrap {
+    max-width: 1200px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.column {
+    width: 50%;
+    margin: auto;
+}
+.d-img {
+    min-height: 150px;
+}
+
+
 }
