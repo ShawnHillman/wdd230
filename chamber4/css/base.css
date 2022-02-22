@@ -86,11 +86,11 @@ nav {
 /*      Main       */
 
 
-main {
+#home-main {
     display: grid;
 }
 
-main section {
+#home-main section {
     box-sizing: border-box;
     margin: 30px 20px;
     padding: 40px 15px;
@@ -101,19 +101,19 @@ main section {
     border-radius: 5px;
 }
 
-main section h4 {
+#home-main section h4 {
     font-family: "Raleway", Helvetica, sans-serif;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
 }
-main section h5 {
+#home-main section h5 {
     font-family: "Raleway", Helvetica, sans-serif;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
 }
-main section p, main section td {
+#home-main section p, #home-main section td {
     font-family: "Raleway", Helvetica, sans-serif;
     text-align: center;
 }
@@ -161,7 +161,7 @@ main section p, main section td {
     padding: 0;
     height: 200px;
     max-height: inherit;
-    background-image: url("../images/org-small.jpg");
+    background-image: url("../images/members.jpg");
     background-size: cover;
     background-position-y: 38%;
     position: relative;

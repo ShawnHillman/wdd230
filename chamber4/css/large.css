@@ -30,7 +30,9 @@ body {
 main {
     max-width: 1400px;
     margin: auto;
+}
 
+#home-main {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 300px 300px 300px 300px;
 }
@@ -49,7 +51,6 @@ main {
     height: auto;
     margin-top: 10px;
     background-position-x: center;
-    background-image: url("../images/org-large.jpg");
 }
 #m-hero h3 {
     font-size: 44px;
