@@ -337,10 +337,86 @@ nav {
 }
 
 
+/*      Join       */
+
+#join-main {
+    margin: 100px auto;
+}
+#join-main h1 {
+    width: 100%;
+    font-size: 36px;
+    margin-left: 0;
+    padding: 0 20px;
+}
+form {
+    display: flex;
+    flex-flow: column nowrap;
+
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 0 25px 25px;
+}
+form label, form input, form p {
+    margin: 30px 12px 0;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #666;
+    text-transform: uppercase;
+}
+form p {
+    margin: 50px 0 0 0;
+    color: #333;
+    font-size: 16px;
+}
+form input {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    text-transform: inherit;
+}
+.mem-div {
+    margin: 20px 0;
+    padding: 30px;
+    border: 3px solid #27598E;
+    border-radius: 10px;
+}
+.mem-div ul {
+    margin: 10px 0 0 50px;
+    color: #666;
+    text-transform: none;
+    font-size: 14px;
+}
+#submit-btn {
+    margin: 30px auto;
+    padding: 10px 100px;
+    background-color: #27598E;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+/*      Thank You      */
+
+
+#thanks {
+    font-size: 36px;
+
+    width: 100%;
+    margin: 200px auto;
+    text-align: center;
+}
+#thanks b {
+    color: #245892;
+}
+
 /*      Footer       */
 
 footer {
-    margin-top: 50px;
+    margin-top: auto;
+    padding-top: 50px;
 }
 #footer-div {
     background-color: #f5f5f5;

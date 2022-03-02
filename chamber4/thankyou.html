@@ -43,7 +43,7 @@
                     <a href="#">
                         <div class="nav-link">Directory</div>
                     </a>
-                    <a href="#">
+                    <a href="join.html">
                         <div class="nav-link">Join</div>
                     </a>
                     <a href="#">
@@ -63,78 +63,10 @@
         </div>
     </header>
 
-    <main id="join-main">
+    <main id="thankyou-main">
 
-        <h1>Start Your Membership</h1>
-
-        <form action="thankyou.html">
-
-            <p>Personal</p>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" required autofocus>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" required>
-            <label for="bus-pos">Title</label>
-            <input type="text" id="bus-pos" name="bus-pos" pattern="[A-Za-z- ]{7,}">
-            <p>Contact</p>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="johndoe@business.com">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required placeholder="1112223333">
-            <label for="bus-name">Business Name</label>
-            <input type="text" id="bus-name" name="bus-name" required placeholder="John Doe Inc.">
-            <label for="bus-desc">Business Description</label>
-            <input type="textarea" id="bus-desc" placeholder="...">
-            <p>Membership</p>
-            <div class="mem-div">
-                <input type="radio" id="mem1" name="mem" required>
-                <label for="mem1">Non-Profit
-                    <ul>
-                        <li>Non-Profit Organizations</li>
-                        <li>No Fee</li>
-                    </ul>
-                </label>
-            </div>
-            <div class="mem-div">
-                <input type="radio" id="mem2" name="mem" required>
-                <label for="mem2">Bronze
-                    <ul>
-                        <li>15% discount on events</li>
-                        <li>10% discount on advertising</li>
-                        <li>Fee of $50/month</li>
-                    </ul>
-                </label>
-            </div>
-            <div class="mem-div">
-                <input type="radio" id="mem3" name="mem" required>
-                <label for="mem3">Silver
-                    <ul>
-                        <li>15% discount on events</li>
-                        <li>10% discount on advertising</li>
-                        <li>Free participation in the trade fair</li>
-                        <li>Fee of $50/month</li>
-                    </ul>
-                </label>
-            </div>
-            <div class="mem-div">
-                <input type="radio" id="mem4" name="mem" required>
-                <label for="mem4">Gold
-                    <ul>
-                        <li>50% discount on events</li>
-                        <li>50% discount on advertising</li>
-                        <li>Free participation in the trade fair</li>
-                        <li>5 free featured ads per year</li>
-                        <li>1 free training per quarter</li>
-                        <li>Fee of $250/month</li>
-                    </ul>
-                </label>
-            </div>
-            <input type="hidden" name="date" value="CurrentDate">
-            <input type="hidden" name="time" value="CurrentTime">
-
-            <input id="submit-btn" type="submit" value="Submit">
-
-        </form>
+        <h1 id="thanks">Thank you for joining<br>
+            <b>Peak Chamber!</b></h1>
 
     </main>
     <footer>

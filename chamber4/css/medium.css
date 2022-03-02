@@ -143,4 +143,15 @@ nav {
 }
 
 
+
+/*      Join     */
+
+#join-main {
+    width: 640px;
+}
+form p {
+    margin-left: -30px;
+}
+
+
 }
