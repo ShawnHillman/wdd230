@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+table {
+    max-width: 300px;
+    width: 100%;
+    margin: 100px auto;
+    border-spacing: 0 5px;
+}
+thead th {
+    border-radius: 50px;
+    background: hsla(221, 45%, 73%, 1);
+    background: linear-gradient(0deg, hsla(221, 45%, 50%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(221, 45%, 50%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(221, 45%, 50%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9bafd9", endColorstr="#103783", GradientType=1 );
+    color: white;
+}
+tbody tr:nth-child(1) {
+    border-radius: 50px;
+    background-color: #9BAFD9;
+    text-align: left;
+}
+th, td {
+    padding: 5px 10px;
+}
+td:nth-child(2), td:nth-child(3) {
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+.reached {
+    color: white;
+    background-color:hsla(221, 45%, 50%, 1);
+    border-radius: 3px;
+}
+
+tfoot tr {
+    background-color: #ddd;
+}
+tfoot td {
+    text-align: center;
+}
+tfoot i {
+    font-size: 12px;
+}
