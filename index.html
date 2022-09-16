@@ -2,16 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Shawn Hillman's assignment portal for the class WDD230: Web Frontend Development during the Fall 2022 semester.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+
+    <title>Shawn's WDD230 Homepage</title>
+
+    <link rel="stylesheet" href="css/homepage.css">
+    <script defer src="js/homepage.js"></script>
 </head>
 <body>
     <header>
-        <img>
-        <h1>Shawn Hillman</h1>
+        <div class="me">
+            <img src="img/me.jpg" alt="A handsome man enjoying life.">
+            <img class="img-top" src="img/me_hover.jpg" alt="A handsome man rethinking life.">
+        </div>
+        <h1>Shawn<br>Hillman</h1>
     </header>
-    <body>
+    <main>
         <h2>WDD 230 - Assignments</h2>
         <ul id="assign-list">
             <li class="assign">Week 1: <a class="assign-link" href="">title</a></li>
@@ -26,9 +34,10 @@
             <li class="assign">Week 10: <a class="assign-link" href="">title</a></li>
             <li class="assign">Week 11: <a class="assign-link" href="">title</a></li>
         </ul>
-    </body>
+    </main>
     <footer>
-        &copy; 2022 | All Rights Reserved | Today's Date: <span id="currentDate"></span>
+        <p id="current">&copy; <span id="full-year"></span> | All Rights Reserved | Hamer, ID | Today's Date: </p>
+        <p id="updated">Last Updated: </p>
     </footer>
     <script src="homepage.js"></script>
 </body>

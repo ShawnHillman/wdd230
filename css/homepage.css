@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,li {
+    font-family: "Oswald";
+}
+
+body {
+    margin: auto;
+    max-width: 400px;
+}
+header {
+    display: grid;
+    grid-template: 1fr/200px 200px;
+    margin: 50px auto;
+}
+
+img {
+    max-width: 100%;
+}
+.me {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+.me .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.me:hover .img-top {
+    display: inline;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1em;
+    padding: 125px 0 0 25px;
+    color: #311b55;
+}
+ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+footer {
+    margin: 50px 0;
+}
+footer p {
+    font-size: .8em;
+}
+
+@media
