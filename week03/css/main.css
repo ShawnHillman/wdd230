@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+h1, .p-emphasis {
+    font-family: "Lusitana";
+
+}
+header,main,footer {
+    padding: 50px 20px;
+}
+
+header {
+    z-index: -1;
+    width: 100%;
+    max-height: 300px;
+    background-image: url("../img/wheat-big.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.header-logo {
+    max-width: 150px;
+    filter: drop-shadow(0px 0px 10px #000);
+}
+h1 {
+    color: #eeeeee;
+    filter: drop-shadow(0px 0px 10px #000);
+}
+
+nav {
+    background-color: #70ced0;
+    display: flex;
+    
+    text-align: center;
+}
+.nav-link {
+    max-width: 125px;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    max-height: auto;
+}
+main section, footer * {
+    max-width: 500px;
+    margin: auto;
+}
+h2 {
+    font-size: 1.3em;
+    color: #666;
+    margin: 60px 0 20px;
+}
+.paragraph {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.3em;
+}
+#site-name {
+    font-family: "Lusitana";
+    font-size: 2em;
+    color: #192e5b;
+}
+.body-logo {
+    max-width: 200px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #eee;
+    color: #888;
+}
