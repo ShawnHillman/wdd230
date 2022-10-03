@@ -34,6 +34,7 @@ h1 {
 nav {
     background-color: #70ced0;    
     text-align: center;
+    text-transform: uppercase;
 }
 .nav-link {
     width: 100%;
@@ -42,13 +43,10 @@ nav {
     text-decoration: none;
     transition: .2s;
 }
-/* .nav-link:hover {
-    background-color: #192e5b;
-} */
 
 main {
     width: 100%;
-    max-height: auto;
+    height: auto;
     margin-bottom: 50px;
 }
 main section, footer * {
