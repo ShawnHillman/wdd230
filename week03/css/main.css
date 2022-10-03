@@ -32,17 +32,19 @@ h1 {
 }
 
 nav {
-    background-color: #70ced0;
-    display: flex;
-    
+    background-color: #70ced0;    
     text-align: center;
 }
 .nav-link {
-    max-width: 125px;
-    padding: 20px 0;
+    width: 100%;
+    padding: 2em;
     color: white;
     text-decoration: none;
+    transition: .2s;
 }
+/* .nav-link:hover {
+    background-color: #192e5b;
+} */
 
 main {
     width: 100%;
@@ -112,6 +114,21 @@ h2 {
 .color-border {
     border: 3px solid #888;
 }
+.font-box {
+    margin-top: 4em;
+}
+.font-box p {
+    margin-top: 1em;
+}
+.font-name-display {
+    font-size: 1.8em;
+}
+.font-alpha-display {
+    font-size: 1.2em;
+}
+#Lusitana-alpha-display, #Lusitana-name-display {
+    font-family: "Lusitana";
+}
 
 footer {
     width: 100%;
@@ -119,4 +136,16 @@ footer {
     text-align: center;
     background-color: #eee;
     color: #888;
+}
+
+@media (min-width: 800px) {
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-link {
+    max-width: 125px;
+}
+
 }
