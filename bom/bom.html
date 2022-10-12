@@ -21,10 +21,18 @@
 </head>
 <body>
     <header>
-
+        <h1>Favorite Scriptures</h1>
+        <h2>Book of Mormon</h2>
     </header>
     <main>
-
+        <form>
+            <label for="chapter">Enter a Chapter</label>
+            <input type="text" id="chapter">
+            <input type="submit" value="Add" id="addNew" onclick="addChapter()">
+            <input type="reset">
+        </form>
+        <ul id="scripture-list">
+        </ul>
     </main>
     <footer>
         <p>&copy; <span id="full-year"></span> | All Rights Reserved</p>
