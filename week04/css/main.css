@@ -9,7 +9,7 @@ h1 {
     font-size: 24px;
 }
 #header-filter, main, footer {
-    padding: 20px;
+    padding: 1em;
 }
 #header-logo {
     max-width: 100px;
@@ -22,22 +22,103 @@ h2 {
     font-size: 1.2em;
 }
 
-header {
+#header-filter {
+    padding: 3em 1em;
     background-image: url(../img/wheat-small.jpg);
     background-position: center;
     background-size: cover;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
-header * {
+#header-filter * {
     color: white;
+}
+#social-box {
+    width: 100%;
+    margin-top: 1.5em;
+    display: flex;
+}
+#social-box * {
+    padding: .2em;
+}
+#header-date {
+    padding-top: .4em;
+    justify-self: stretch;
 }
 
 #navigation {
-    display: flex;
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    transition: .3s;
 }
 #navigation li {
     display: block;
+    padding: .7em 4em;
+    background-color: #525598;
+}
+#navigation a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+#navigation li:hover {
+    background-color: #212473;
 }
 #navigation .active {
     display: none;
 }
+.fa-bars {
+    position: absolute;
+    top: .7em;
+    right: .7em;
+    font-size: 1.6em;
+    opacity: .7;
+}
 
+main, footer {
+    position: relative;
+    top: 0;
+    transition: .3s;
+}
+main div {
+    padding: 1em;
+    padding-bottom: 5em;
+}
+#hero {
+    margin-top: 2em;
+}
+main > div {
+    background-color: #FFF0ED;
+    margin-top: 1em;
+}
+main > div > div {
+    background-color: #fff;
+}
+.spotlight:nth-child(3) {
+    display: none;
+}
+.spotlight {
+    margin-top: 1em;
+}
+.spotlight:nth-child(1) {
+    margin-top: 0;
+}
+#spotlight-box {
+    padding-bottom: 1em;
+}
+
+footer {
+    font-size: .8em;
+    color:#666;
+    text-align: center;
+}
+
+.up {
+    top: -10em !important;
+}
