@@ -13,6 +13,7 @@ h1 {
 }
 #header-logo {
     max-width: 100px;
+    filter: drop-shadow(5px 5px 10px #000);
 }
 h1 {
     font-size: 2.5em;
@@ -113,6 +114,9 @@ main > div > div {
 }
 #spotlight-box {
     padding-bottom: 1em;
+}
+#join {
+    display: none;
 }
 
 footer {
