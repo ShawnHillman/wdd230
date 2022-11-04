@@ -52,7 +52,7 @@ h2 {
 #navigation {
     display: block;
     position: relative;
-    width: 100%;
+    width: auto;
     z-index: -1;
     top: 0;
     transition: .3s;
@@ -70,7 +70,7 @@ h2 {
     transition: .2s;
 }
 #navigation li:hover {
-    background-color: #212473;
+    background-color: #212473 !important;
     font-size: 1.4em;
 }
 #navigation .active {
