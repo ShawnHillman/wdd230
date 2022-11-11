@@ -46,10 +46,20 @@ function displayBusinessList(item) {
     phone.textContent = item.phone;
     address.textContent = item.address;
 
-    row.innerHTML = (`<td>${name}</td>
-                      <td>${site}</td>
-                      <td>${phone}</td>
-                      <td>${address}</td>`);
+    let td1 = document.createElement('td');
+    let td2 = document.createElement('td');
+    let td3 = document.createElement('td');
+    let td4 = document.createElement('td');
+
+    td1.appendChild(name);
+    td2.appendChild(site);
+    td3.appendChild(phone);
+    td4.appendChild(address);
+
+    row.appendChild(td1);
+    row.appendChild(td2);
+    row.appendChild(td3);
+    row.appendChild(td4);
 
     document.querySelector('table').appendChild(row);
 }

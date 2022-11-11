@@ -29,6 +29,7 @@
 .bus-cards table {
     background-color: white;
     border-radius: 10px;
+    grid-column: 1/4;
 }
 
 #bus-view {
@@ -36,7 +37,7 @@
     margin: 3em 0 0;
     padding: 0;
     display: flex;
-    justify-content: right;;
+    justify-content: right;
 }
 #bus-view i {
     color: white;
