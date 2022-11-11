@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/directory.css">
     <script defer src="js/main.js"></script>
     <script defer src="js/directory.js"></script>
 </head>
@@ -46,10 +47,15 @@
         </nav>
     </header>
     <main class="up">
+        <div id="bus-view">
+            <i class="fa-solid fa-square" onclick="clickState('grid')"></i>
+            <i class="fa-solid fa-list" onclick="clickState('list')"></i>
+        </div>
         <div class="bus-cards"></div>
     </main>
     <footer class="up">
         <p>&copy; <span id="full-year"></span> | All Rights Reserved</p>
+        <p>Mud Lake Chamber of Commerce | Idaho, U.S.A.</p>
     </footer>
 </body>
 </html>
