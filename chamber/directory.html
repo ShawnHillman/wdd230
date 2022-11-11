@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Description & Title -->
-    <meta name="description" content="Homepage of the Mud Lake Chamber of Commerce, dedicated to bringing value and connection to the business owners and community members of the Mud Lake communities.">
-    <title>Home | Mud Lake Chamber</title>
+    <meta name="description" content="Directory of the Mud Lake Chamber of Commerce. Discover the local business that make the Mud Lake area the amazing community it is.">
+    <title>Directory | Mud Lake Chamber</title>
 
         <!-- Reset & Normalize CSS, Font Awesome & Copyright JS -->
     <link rel="stylesheet" href="../css/reset.css">
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/main.js"></script>
+    <script defer src="js/directory.js"></script>
 </head>
 <body>
     <header>
@@ -36,41 +37,16 @@
         <nav>
             <i class="fa-sharp fa-solid fa-bars" onclick="viewNav()"></i>
             <ul id="navigation" class="up">
-                <a href="#" class="active"><li class="nav-item">Home</li></a>
+                <a href="index.html"><li class="nav-item">Home</li></a>
                 <a href="#"><li class="nav-item">Discover</li></a>
-                <a href="directory.html"><li class="nav-item">Directory</li></a>
+                <a href="#" class="active"><li class="nav-item">Directory</li></a>
                 <a href="#"><li class="nav-item">Join</li></a>
                 <a href="#"><li class="nav-item">Contact</li></a>
             </ul>
         </nav>
     </header>
     <main class="up">
-        <div id="hero">
-            <p>Hero, Call to Action</p>
-        </div>
-        <div id="event">
-            <p>Event</p>
-        </div>
-        <div id="weather">
-            <p>Weather</p>
-        </div>
-        <div id="news">
-            <p>News Release</p>
-        </div>
-        <div id="spotlight-box">
-            <div class="spotlight">
-                <p>Spotlight 1</p>
-            </div>
-            <div class="spotlight">
-                <p>Spotlight 2</p>
-            </div>
-            <div class="spotlight">
-                <p>Spotlight 3</p>
-            </div>
-        </div>
-        <div id="join">
-            <p>Join</p>
-        </div>
+        <div class="bus-cards"></div>
     </main>
     <footer class="up">
         <p>&copy; <span id="full-year"></span> | All Rights Reserved</p>

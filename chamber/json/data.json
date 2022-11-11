@@ -1,0 +1,18 @@
+{
+    "businesses": [
+        {
+            "name": "Agri-Service",
+            "address": "1280 E 1500 N Terreton, ID",
+            "phone": "208 663 4580",
+            "webiste": "https://agri-service.com/",
+            "logo": "agriservice.png"
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "webiste": "",
+            "logo": ""
+        }
+    ]
+}
