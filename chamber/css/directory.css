@@ -26,6 +26,11 @@
     border-radius: 5px;
 }
 
+.bus-cards table {
+    background-color: white;
+    border-radius: 10px;
+}
+
 #bus-view {
     background-color: white;
     margin: 3em 0 0;
