@@ -1,5 +1,5 @@
 const requestURL = './json/data.json';
-let clickState = 'list';
+let clickState = 'grid';
 
 function displayBusinessGrid(item) {
     let card = document.createElement('section');
@@ -73,6 +73,7 @@ async function getBusinesses(requestURL, type) {
         // console.log(jsObject);
 
         const businesses = jsObject['businesses'];
+        
         if (type === 'grid') {
             businesses.forEach(displayBusinessGrid);
         } else if (type=== 'list') {
