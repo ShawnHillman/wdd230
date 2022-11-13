@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "name": "Agri-Service",
+            "address": "1280 E 1500 N Terreton",
+            "phone": "208 663 4580",
+            "website": "https://agri-service.com/",
+            "logo": "agriservice.png"
+        },
+        {
+            "name": "Birch Creek Mill Work",
+            "address": "1446 E 1500 N Terreton",
+            "phone": "208 663 4329",
+            "webiste": "https://birchcreekmillwork.com/",
+            "logo": "birchcreek.png"
+        },
+        {
+            "name": "Brown Co Office",
+            "address": "1700 E 1705 N Terreton",
+            "phone": "208 663 4287",
+            "webiste": "https://www.brown-co.com/",
+            "logo": "brownco.png"
+        },
+        {
+            "name": "Hair Studio",
+            "address": "1284 E 1500 N Terreton",
+            "phone": "208 663 4468",
+            "webiste": "https://www.mapquest.com/us/idaho/hair-studio-471519825",
+            "logo": "hairstudio.png"
+        },
+        {
+            "name": "Idaho Sand Resort",
+            "address": "1764 E 1200 N Terreton",
+            "phone": "208 663 4585",
+            "webiste": "https://www.idahosandresort.com/",
+            "logo": "idahosandresort.jfif"
+        },
+        {
+            "name": "Ike's Tesoro",
+            "address": "1092 E 1500 N Terreton",
+            "phone": "208 663 4442",
+            "webiste": "https://www.mapquest.com/us/idaho/ikes-tesoro-431012794",
+            "logo": "ikes.jpg"
+        },
+        {
+            "name": "J&D Properties",
+            "address": "1616 E 1600 N Terreton",
+            "phone": "208 663 4423",
+            "webiste": "https://www.jdproperty.com/",
+            "logo": "jd.png"
+        },
+        {
+            "name": "Ken Hall Dairy",
+            "address": "1543 N 1900 E Terreton",
+            "phone": "208 663 4516",
+            "webiste": "https://www.chamberofcommerce.com/united-states/idaho/terreton/moving-and-storage-service/31376003-ken-hall-dairy",
+            "logo": "kenhall.png"
+        },
+        {
+            "name": "Panther Painting",
+            "address": "1229 E 1500 N",
+            "phone": "208 663 4534",
+            "webiste": "https://www.mapquest.com/us/idaho/panther-painting-417759027",
+            "logo": "pantherpainting.jpg"
+        },
+        {
+            "name": "Ron's Tire Factory",
+            "address": "1432 E 1500 N",
+            "phone": "208 663 4684",
+            "webiste": "https://www.pointstire.com/terreton",
+            "logo": "ronstires.jfif"
+        },
+        {
+            "name": "West Jefferson Family Health",
+            "address": "1286 E 1500 N",
+            "phone": "208 663 4628",
+            "webiste": "https://www.manta.com/c/mmqv65g/west-jefferson-family-health",
+            "logo": "wjmc.png"
+        },
+        {
+            "name": "Willow Creek Dental",
+            "address": "1284 E 1500 N",
+            "phone": "208 663 4830",
+            "webiste": "https://willowcreekdental.com/",
+            "logo": "willowcreek.png"
+        }
+    ]
+}
