@@ -73,6 +73,7 @@ async function getBusinesses(requestURL, type) {
         // console.log(jsObject);
 
         const businesses = jsObject['businesses'];
+        
         if (type === 'grid') {
             businesses.forEach(displayBusinessGrid);
         } else if (type=== 'list') {
