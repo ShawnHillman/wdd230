@@ -1,0 +1,45 @@
+@media (min-width: 1000px) {
+
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    #navigation {
+        display: flex;
+        justify-content: center;
+    }
+    .fa-bars {
+        display: none;
+    }
+
+    .up {
+        top: 0 !important;
+    }
+
+    #home-main {
+        grid-template-columns: 25% 50% 25%;
+    }
+    #hero {
+        grid-area: 1/2/3/3;
+    }
+    #event {
+        grid-area: 1/1/2/2;
+    }
+    #weather {
+        grid-area: 2/1/3/2;
+    }
+    #join {
+        grid-area: 3/1/4/2;
+    }
+    #news {
+        grid-area: 3/2/4/3;
+    }
+    #spotlight-box {
+        grid-area: 1/3/4/4;
+        grid-template-columns: 100%;
+    }
+    .spotlight:nth-child(3) {
+        display: inherit;
+    }
+}
