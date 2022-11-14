@@ -1,8 +1,11 @@
 @media (min-width: 1000px) {
 
-    body {
-        max-width: 1000px;
+    header, main {
+        max-width: 1100px;
         margin: auto;
+    }
+    main {
+        max-width: 1000px;
     }
 
     #navigation {

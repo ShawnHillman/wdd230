@@ -13,14 +13,16 @@ h1 {
 }
 #header-logo {
     max-width: 100px;
-    filter: drop-shadow(5px 5px 10px #000);
+    filter: drop-shadow(0px 0px 10px #000);
 }
 h1 {
-    font-size: 2.5em;
+    font-size: 4em;
     margin: 0;
+    text-shadow: 0px 0px 10px #000000;
 }
 h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    text-shadow: 0px 0px 10px #000000;
 }
 
 #header-filter {
@@ -49,11 +51,13 @@ h2 {
     justify-self: stretch;
 }
 
+nav {
+    z-index: -1;
+}
 #navigation {
     display: block;
     position: relative;
     width: auto;
-    z-index: -1;
     top: 0;
     transition: .3s;
 }
@@ -71,10 +75,9 @@ h2 {
 }
 #navigation li:hover {
     background-color: #212473 !important;
-    font-size: 1.4em;
 }
 #navigation .active {
-    display: none;
+    display: none !important;
 }
 .fa-bars {
     position: absolute;
@@ -89,40 +92,42 @@ main, footer {
     top: 0;
     transition: .3s;
 }
-main div {
-    padding: 1em;
-    padding-bottom: 5em;
+#home-main, #spotlight-box {
+    display: grid;
+    grid-gap: 1em;
 }
-#hero {
-    margin-top: 2em;
+#home-main div {
+    padding: 1em;
+    min-height: 200px;
+}
+#home-main {
+    margin-top: 4em;
 }
 main > div {
     background-color: #FFF0ED;
-    margin-top: 1em;
 }
-main > div > div {
+.spotlight {
+    padding: 1em;
     background-color: #fff;
 }
 .spotlight:nth-child(3) {
     display: none;
-}
-.spotlight {
-    margin-top: 1em;
-}
-.spotlight:nth-child(1) {
-    margin-top: 0;
-}
-#spotlight-box {
-    padding-bottom: 1em;
 }
 #join {
     display: none;
 }
 
 footer {
+    width: 100%;
+    padding: 50px;
+    margin-top: 100px;
     font-size: .8em;
     color:#666;
     text-align: center;
+    background-color: #eee;
+}
+footer p {
+    padding-bottom: .5em;
 }
 
 .up {

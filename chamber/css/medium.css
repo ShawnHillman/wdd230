@@ -1,8 +1,11 @@
 @media (min-width: 600px) {
 
+    #header-filter {
+        padding-left: 50px;
+    }
     #home-main {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 58% 40%;
         grid-gap: 1em;
     }
     #home-main div {
