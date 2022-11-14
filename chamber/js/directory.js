@@ -1,5 +1,5 @@
 const requestURL = './json/data.json';
-let clickState = 'list';
+let clickState = 'grid';
 
 function displayBusinessGrid(item) {
     let card = document.createElement('section');
