@@ -5,8 +5,9 @@ const getWeather = async () => {
     const jsObject = await response.json();
     console.log(jsObject);
     let kelvin = jsObject.main.temp;
-    let farenheit = (kelvin -273.15)* 1.8 + 32;
-    document.querySelector("#current-temp").textContent = farenheit.toFixed(2);
+    let farenheit = Math.round[(kelvin -273.15)* 1.8 + 32];
+    console.log(farenheit);
+    document.querySelector("#current-temp").textContent = farenheit;
 
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
