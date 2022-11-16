@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+h1 {
+    font-family: "Lusitana";
+    font-size: 24px;
+    margin: 50px;
+}
+main,h1 {
+    text-align: center;
+}
+main {
+    line-height: 1.5em;;
+}
+#current-temp {
+    font-weight: 700;
+}
+#weathericon {
+    width: 10em;
+}
+
+footer {
+    width: 100%;
+    padding: 50px;
+    margin-top: 100px;
+    font-size: .8em;
+    color:#666;
+    text-align: center;
+    background-color: #eee;
+    position: absolute;
+    bottom: 0;
+}
+footer p {
+    padding-bottom: .5em;
+}
+
+.up {
+    top: -9.61em !important;
+}
