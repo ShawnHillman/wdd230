@@ -3,6 +3,10 @@
     #header-filter {
         padding-left: 50px;
     }
+    #navigation {
+        width: 90%;
+        margin: auto;
+    }
     #home-main {
         display: grid;
         grid-template-columns: 58% 40%;
