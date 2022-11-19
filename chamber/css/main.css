@@ -186,9 +186,11 @@ main ul {
     font-size: 4em;
     color: white;
 }
-.fa-wind {
-    font-size: .5em;
-    padding-left: 20px;
+#weather img {
+    width: 70px;
+}
+#weather-type {
+    text-transform: capitalize;
 }
 #join {
     text-align: left;
