@@ -1,7 +1,7 @@
 @media (min-width: 1000px) {
 
     header, main {
-        max-width: 1100px;
+        max-width: 1200px;
         margin: auto;
     }
     main {
@@ -21,11 +21,12 @@
     }
 
     #home-main {
-        grid-template-columns: 25% 50% 25%;
+        grid-template-columns: 23% 45% 23%;
         grid-template-rows: 200px 200px 200px;
     }
     #hero {
         grid-area: 1/2/3/3;
+        background-image: url(../img/hero-large.jpg);
     }
     #event {
         grid-area: 1/1/2/2;
