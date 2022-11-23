@@ -131,7 +131,7 @@ main ul {
 }
 #hero {
     position: inherit;
-    background-image: url(../img/mock-hero-small.jpg);
+    background-image: url(../img/hero-small.jpg);
     background-position: center;
     color: white;
     min-height: 300px;
@@ -218,6 +218,31 @@ main ul {
 }
 .spotlight img {
     border-radius: 10px;;
+}
+
+#discover-images {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+#discover-images section {
+    flex: 100%;
+    max-width: 100%;
+}
+#discover-images img {
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+img[data-src] {
+    filter: blur(0.1em);
+}
+img {
+    filter: blur(0em);
+    transition: filter 1s;
 }
 
 footer {

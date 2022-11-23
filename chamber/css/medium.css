@@ -17,7 +17,7 @@
     #hero {
         order: 1;
         grid-column: 1/3;
-        background-image: url(../img/mock-hero-med.jpg);
+        background-image: url(../img/hero-med.jpg);
     }
     #news {
         order: 2;
@@ -43,6 +43,16 @@
     }
     #weather {
         order: 6;
+    }
+    #discover-images section {
+        flex: 50%;
+        max-width: 48%;
+    }
+    #discover-images img {
+        transition: scale 0.2s;
+    }
+    #discover-images img:hover {
+        transform: scale(1.1);
     }
 
 }

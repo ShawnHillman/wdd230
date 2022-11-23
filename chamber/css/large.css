@@ -26,7 +26,7 @@
     }
     #hero {
         grid-area: 1/2/3/3;
-        background-image: url(../img/mock-hero-large.jpg);
+        background-image: url(../img/hero-large.jpg);
     }
     #event {
         grid-area: 1/1/2/2;
@@ -46,5 +46,10 @@
     }
     .spotlight:nth-child(3) {
         display: inherit;
+    }
+
+    #discover-images section {
+        flex: 32%;
+        max-width: 32%;
     }
 }
