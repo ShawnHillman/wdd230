@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Description & Title -->
+    <meta name="description" content="An example assignment demonstrating the progressive loading of images, or 'lazy loading'.">
+    <title>Progressive Loading</title>
+
+        <!-- Reset & Normalize CSS, Font Awesome & Copyright JS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script defer src="../js/copyright.js"></script>
+
+        <!-- File Specific CSS & JS -->
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header class="skewed">
+        <h1>Lazy Loading</h1>
+        <h2>Demonstration</h2>
+        <p>Shawn Hillman</p>
+    </header>
+    <main>
+        <section id="images-box">
+            <img src="img/placeholder.jpg" data-src="img/img1.jpg" alt="cute puppy" loading="lazy">
+            <img src="img/placeholder.jpg" data-src="img/img2.jpg" alt="adorable kitten" loading="lazy">
+            <img src="img/placeholder.jpg" data-src="img/img3.jpg" alt="cuddly bear cub" loading="lazy">
+            <img src="img/placeholder.jpg" data-src="img/img4.jpg" alt="precious raccoon" loading="lazy">
+            <img src="img/placeholder.jpg" data-src="img/img5.jpg" alt="lovable panda cubs" loading="lazy">
+            <img src="img/placeholder.jpg" data-src="img/img6.jpg" alt="delightful calf" loading="lazy">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="full-year"></span> | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
