@@ -1,0 +1,24 @@
+#join-form {
+    max-width: 300px;
+}
+#join-form > div {
+    margin: auto;
+    width: 200px;
+}
+#join-form h3 {
+    margin-top: 2em;
+}
+#join-form label {
+    display: block;
+    width: 200px;
+    margin-top: 1em;
+}
+#join-form input {
+    display: block;
+    width: 200px;
+    margin-top: .5em;
+}
+
+#membership-levels label {
+    display: inline;
+}

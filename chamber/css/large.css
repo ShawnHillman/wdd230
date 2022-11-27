@@ -52,4 +52,9 @@
         flex: 32%;
         max-width: 32%;
     }
+
+    #join-form {
+        margin-left: 150px;
+    }
+
 }
