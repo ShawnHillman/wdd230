@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/join.css">
     <script defer src="js/main.js"></script>
     <script defer src="js/thankyou.js"></script>
 </head>
@@ -36,7 +37,7 @@
         </div>
         <nav>
             <i class="fa-sharp fa-solid fa-bars" onclick="viewNav()"></i>
-            <ul id="navigation" class="up">
+            <ul id="navigation" class="hide">
                 <li class="nav-item"><a href="index.html">Home</a></li>
                 <li class="nav-item"><a href="discover.html">Discover</a></li>
                 <li class="nav-item"><a href="directory.html">Directory</a></li>
@@ -45,11 +46,13 @@
             </ul>
         </nav>
     </header>
-    <main class="up" id="thankyou-main">
-        <div id="form-results"></div>
-        <a href="join.html"><button>Return</button></a>
+    <main id="thankyou-main">
+        <div id="form-results" class="hide"></div>
+        <h3>Thank You for joining the<br>
+            Mud Lake Chamber of Commerce!</h3>
+        <a href="join.html" id="return-btn"><button>Return</button></a>
     </main>
-    <footer class="up">
+    <footer>
         <p>&copy; <span id="full-year"></span> | All Rights Reserved</p>
         <p><strong>Mud Lake Chamber of Commerce</strong> | Dubois, Hamer, Howe, Mud Lake, Roberts, Terreton</p>
     </footer>
