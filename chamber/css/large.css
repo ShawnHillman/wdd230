@@ -9,7 +9,7 @@
     }
 
     #navigation {
-        display: flex;
+        display: flex !important;
         justify-content: center;
     }
     .fa-bars {

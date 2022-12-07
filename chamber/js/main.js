@@ -3,9 +3,7 @@ function viewNav() {
     let content = document.querySelector("main");
     let footer = document.querySelector("footer");
 
-    nav.classList.toggle("up");
-    content.classList.toggle("up");
-    footer.classList.toggle("up");
+    nav.classList.toggle("hide");
 }
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5596475&appid=b650d442616f7081512ff0ae0fb0b7ac";
