@@ -1,3 +1,9 @@
+/**************************************************
+
+Homepage CSS
+
+**************************************************/
+
 /*
 Chosen Fonts:
 Headings: Permanent Marker
@@ -472,3 +478,32 @@ footer li {
 footer li, footer a, footer p {
     color: var(--lightgray);
 }
+
+
+
+
+
+
+/**************************************************
+
+Page Specific CSS
+
+**************************************************/
+
+/* Activities Page */
+
+
+
+/* Events Page */
+
+
+
+/* Videos Page */
+
+
+
+/* Blog Page */
+
+
+
+/* Contact Page */
