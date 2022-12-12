@@ -323,7 +323,7 @@ a.section-more-link {
 .home-activity p, .home-activity a {
     line-height: 1.5em;
 }
-.home-activity a {
+#home-activities-box a {
     background-color: var(--sky);
     padding: .25em 1.5em;
     border-radius: 10px 10px 0 0;
@@ -513,6 +513,23 @@ h1 span {
 
 
 /* Activities Page */
+#activities-main .home-activity {
+    max-width: 400px;
+}
+.activities-wrapper {
+    display: grid;
+    justify-content: center;
+    gap: 2em;
+}
+.activities-wrapper p, .activities-wrapper a {
+    text-align: left;
+}
+.hid {
+    display: none;
+}
+.flipped {
+    transform: rotate(180);
+}
 
 
 
