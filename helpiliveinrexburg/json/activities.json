@@ -1,0 +1,34 @@
+{
+    "activities": [
+        {
+            "name": "Gravity Factory",
+            "location": "165 Airport Rd, Rexburg, ID",
+            "price": "$9 - $13",
+            "time": "1hr+",
+            "hours": "10am - 9pm",
+            "groupsize": "any",
+            "website": "https://www.gravityfactory.net/",
+            "images": ["/img/activities/gravity-factory/staff.jpg","/img/activities/gravity-factory/park-shot.jpg","/img/activities/gravity-factory/outside.jpg"]
+        },
+        {
+            "name": "Ethereal VR",
+            "location": "125 Valley River Dr Suite C4, Rexburg, ID",
+            "price": "$0 - $15",
+            "time": "30mins - 1hr",
+            "hours": "12am - 10pm",
+            "groupsize": "1 - 4",
+            "website": "https://www.etherealrexburg.com/",
+            "images": ["/img/activities/ethereal-vr/lobby.jpg","/img/activities/ethereal-vr/rooms.jpg","/img/activities/ethereal-vr/vr-guy.jpg"]
+        },
+        {
+            "name": "The Rock Gym",
+            "location": "871 Jet Stream Dr, Rexburg, ID",
+            "price": "$11 - $20",
+            "time": "All Day",
+            "hours": "10am - 11pm",
+            "groupsize": "any",
+            "website": "https://www.therockgymrexburg.com/",
+            "images": ["/img/activities/rock-gym/floor.jpg","/img/activities/rock-gym/action-shot.jpg","/img/activities/rock-gym/comp.jpg"]
+        }
+    ]
+}
