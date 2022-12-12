@@ -300,12 +300,13 @@ a.section-more-link {
 }
 .home-activity {
     background-color: var(--white);
-    padding: 1em 1em 2em;
+    padding: 1em 1em 0;
     border-radius: 25px 25px 0 0;
     text-align: center;
     position: relative;
     -webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.5); 
     box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
 }
 .home-activity:nth-child(odd) {
     left: -8%;
@@ -320,20 +321,18 @@ a.section-more-link {
     color: var(--navy);
     line-height: 1.5em;
 }
-.home-activity p, .home-activity a {
+.home-activity p {
     line-height: 1.5em;
 }
 #home-activities-box a {
     background-color: var(--sky);
-    padding: .25em 1.5em;
+    padding: .5em 1.5em 5em;
     border-radius: 10px 10px 0 0;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: .7em;
-    position: absolute;
-    bottom: 0;
-    right: 25%;
+    line-height: 2.5em;
 }
 
 

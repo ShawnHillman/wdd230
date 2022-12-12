@@ -13,6 +13,7 @@ function displayAct(item) {
     let image2 = document.createElement('img');
     let image3 = document.createElement('img');
     let drpDwn = document.createElement('div');
+    let drpDwnP = document.createElement('p');
 
     name.textContent = item.name;
     price.textContent = 'Price: ' + item.price;
@@ -27,7 +28,9 @@ function displayAct(item) {
     image2.setAttribute('alt', 'Image 2 of '+ name);
     image3.setAttribute('src', '.'+item.images[2]);
     image3.setAttribute('alt', 'Image 3 of '+ name);
-    drpDwn.textContent('▼');
+    
+    drpDwnP.textContent('▼');
+    drpDwn.appendChild(drpDwnP);
     drpDwn.classList.add('drop-down');
 
     imageBox.appendChild(image1);
