@@ -13,7 +13,6 @@ function displayAct(item) {
     let image2 = document.createElement('img');
     let image3 = document.createElement('img');
     let drpDwn = document.createElement('div');
-    let drpDwnP = document.createElement('p');
 
     name.textContent = item.name;
     price.textContent = 'Price: ' + item.price;
@@ -29,14 +28,15 @@ function displayAct(item) {
     image3.setAttribute('src', '.'+item.images[2]);
     image3.setAttribute('alt', 'Image 3 of '+ name);
     
-    drpDwnP.textContent('▼');
-    drpDwn.appendChild(drpDwnP);
+    drpDwn.textContent = '▼ show images ▼';
     drpDwn.classList.add('drop-down');
+    drpDwn.setAttribute('onClick', 'showImgs(this)');
 
     imageBox.appendChild(image1);
     imageBox.appendChild(image2);
     imageBox.appendChild(image3);
     imageBox.classList.add('hid');
+    imageBox.classList.add('img-box')
 
     card.appendChild(name);
     card.appendChild(price);
@@ -67,3 +67,16 @@ async function getActivities(requestURL) {
 }
 
 getActivities(actRequestURL);
+
+
+
+function showImgs(item) {
+    item.previousSibling.classList.toggle('hid');
+    item.textContent = '▲ hide images ▲';
+    item.setAttribute('onClick', 'hideImgs(this)');
+}
+function hideImgs(item) {
+    item.previousSibling.classList.toggle('hid');
+    item.textContent = '▼ show images ▼';
+    item.setAttribute('onClick', 'showImgs(this)');
+}

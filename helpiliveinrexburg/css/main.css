@@ -512,6 +512,7 @@ h1 span {
 
 
 /* Activities Page */
+
 #activities-main .home-activity {
     max-width: 400px;
 }
@@ -523,11 +524,32 @@ h1 span {
 .activities-wrapper p, .activities-wrapper a {
     text-align: left;
 }
+.drop-down {
+    width: 200px;
+    margin: 1em auto 0;
+    padding: .8em;
+    text-align: center;
+    color: var(--white);
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8em;
+    background-color: var(--sky);
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
 .hid {
     display: none;
 }
 .flipped {
     transform: rotate(180);
+}
+.img-box {
+    max-width: 100%;
+    padding: 1em;
+}
+.img-box img {
+    padding-top: .5em;
 }
 
 
