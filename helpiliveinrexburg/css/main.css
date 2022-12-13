@@ -489,6 +489,18 @@ Page Specific CSS
 
 **************************************************/
 
+#activities-header {
+    background: var(--og);
+}
+#activities-main {
+    background: var(--bg-color);
+}
+#activities-main section {
+    background: none;
+    -webkit-box-shadow: none; 
+    box-shadow: none;
+}
+
 h1 {
     font-weight: 400;
     text-align: center;
@@ -498,7 +510,7 @@ h1 span {
 }
 .ph-main {
     font-size: 2.5em;
-    color: var(--orange);
+    color: var(--navy);
     -webkit-text-stroke: 2px var(--white);
 }
 .ph-sub {
@@ -541,9 +553,6 @@ h1 span {
 .hid {
     display: none;
 }
-.flipped {
-    transform: rotate(180);
-}
 .img-box {
     max-width: 100%;
     padding: 1em;
@@ -555,10 +564,23 @@ h1 span {
 
 
 /* Events Page */
-
-
-
 /* Videos Page */
+
+#events-box, #videos-box, #article-box, #contact-box {
+    padding: 4em auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2em;
+    background: var(--eg);
+}
+#events-box .home-event {
+    max-width: 400px;
+}
+
+
+
+
 
 
 
