@@ -156,7 +156,6 @@ header {
 }
 
 
-
 /* Nav */
 nav {
     background: var(--ng);
@@ -169,13 +168,19 @@ nav {
     margin: auto;
 }
 .nav-icon-box {
-    position: relative;
+    position: sticky;
     display: flex;
     justify-content: right;
+
 }
 .nav-icon-box img {
-    width: 35px;
+    width: 70px;
     cursor: pointer;
+    top: 50px;
+    right: 50px;
+    background-color: var(--sky);
+    padding: 1em;
+    border-radius: 100px;
 }
 .home-nav-box a {
     display: block;
@@ -565,6 +570,7 @@ h1 span {
 
 /* Events Page */
 /* Videos Page */
+/* Blog Page */
 
 #events-box, #videos-box, #article-box, #contact-box {
     padding: 4em auto;
@@ -580,12 +586,97 @@ h1 span {
 
 
 
-
-
-
-
-/* Blog Page */
-
-
-
 /* Contact Page */
+
+#contact-box h2 {
+    padding: 0 !important;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2em;
+    color: var(--white);
+    text-align: center;
+}
+.contact-btn-box {
+    margin: auto;
+    text-align: center;
+}
+.contact-btn-box button {
+    color: var(--white);
+    background-color: var(--navy);
+    border: 1px solid var(--white);
+    margin: 1em;
+    padding: .5em 1.5em;
+    border-radius: 100px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.5em;
+}
+form {
+    display: grid;
+    grid-gap: 1em;
+    margin: 4em;
+    max-width: 100%;
+}
+form h3 {
+    font-family: "Permanent Marker";
+    font-weight: 400;
+    font-size: 1.5em;
+}
+form label, form input {
+    display: block;
+}
+form input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+}
+form label {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: var(--navy);
+    padding: .5em 0;
+}
+form input {
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding: .3em 1em;
+    border: none;
+    border-radius: 15px;
+}
+.active-btn {
+    background-color: var(--orange) !important;
+}
+form textarea {
+    min-width: 350px;
+    min-height: 100px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding: .3em 1em;
+    border: none;
+    border-radius: 15px;
+}
+form button {
+    border: 1px solid var(--white);
+    margin: 1em;
+    padding: .5em 1.5em;
+    border-radius: 100px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1em;
+}
+form button[type="submit"] {
+    color: var(--white);
+    background-color: var(--orange);
+}
+#results-btn {
+    background-color: var(--aqua);
+    width: 250px;
+    margin: 5em auto;
+    padding: .5em 1.5em;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+    padding: .5em 1.5em;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.5); 
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.5);
+}

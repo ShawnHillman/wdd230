@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/main.js"></script>
-    <script defer src="js/activities.js"></script>
+    <script defer src="js/contact.js"></script>
 </head>
 
 <body>
@@ -58,9 +58,113 @@
         </div>
     </nav>
 
-    <main id="events-main">
+    </div>
+
+    <main id="contact-main">
         <section id="contact-box">
-            
+            <h2>What do you want to tell me about?</h2>
+            <div class="contact-btn-box">
+                <button id="act-btn" onclick="showActForm()">Activity</button>
+                <button id="evt-btn" onclick="showEventForm()">Event</button>
+            </div>
+            <div id="contact-form-box">
+                <div id="activity-form-wrapper">
+                    <form id="contact-activity-form" class="hide" action="results.html" method="GET">
+                        <h3>Please tell me the Activity's:</h3>
+                        <div>
+                            <label for="act-name">Name</label>
+                            <input type="text" name="act-name" id="act-name" placeholder="Floating the River" required autofocus>
+                        </div>
+                        <div>
+                            <label for="act-address">Address or Location(s)</label>
+                            <input type="text" name="act-address" id="act-address" placeholder="123 East Main St, Rexburg, ID">
+                        </div>
+                        <div>
+                            <label for="act-price">Price Range:</label>
+                            <input type="text" name="act-price" id="act-price" placeholder="$10 - $12 or Free" required>
+                        </div>
+                        <div>
+                            <label for="act-time">Time frame (if applicable)</label>
+                            <input type="text" name="act-time" id="act-time" placeholder="30mins - 1hr">
+                        </div>
+                        <div>
+                            <label for="act-hours">Hours Open (if applicable)</label>
+                            <input type="text" name="hours" id="act-hours" placeholder="10am - 10pm">
+                        </div>
+                        <div>
+                            <label for="act-group">Group Size</label>
+                            <input type="text" name="group" id="act-group" placeholder="1-4 or Any" required>
+                        </div>
+                        <div>
+                            <label for="act-website">Website Link</label>
+                            <input type="text" name="website" id="act-website" placeholder="https://www.exampleActivity.com/">
+                        </div>
+                        <div>
+                            <label for="act-images">Images<br>
+                                <span class="form-details">Have any high quality pictures to share? (Select up to 3)</span>
+                            </label>
+                            <input type="file" name="act-img1" class="act-images">
+                            <input type="file" name="act-img2" class="act-images">
+                            <input type="file" name="act-img3" class="act-images">
+                        </div>
+                        <div>
+                            <label for="details">Additional Details</label>
+                            <textarea name="details" id="details" placeholder="Anything else others need to know about the activity. For example: summer activity or an ingredients list"></textarea>
+                        </div>
+                        <div class="form-btn-box">
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </div>
+                    </form>
+                    <form id="contact-event-form" class="hide" action="results.html" method="GET">
+                        <h3>Please tell me the Event's:</h3>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Floating the River" required>
+                        </div>
+                        <div>
+                            <label for="address">Address or Location(s)</label>
+                            <input type="text" name="address" id="address" placeholder="Romance Theatre, Main St" required>
+                        </div>
+                        <div>
+                            <label for="price">Price Range:</label>
+                            <input type="text" name="price" id="price" placeholder="$10 - $12 or Free" required>
+                        </div>
+                        <div>
+                            <label for="time">Time frame (if applicable)</label>
+                            <input type="text" name="time" id="time" placeholder="30mins - 1hr">
+                        </div>
+                        <div>
+                            <label for="hours">Hours Open (if applicable)</label>
+                            <input type="text" name="hours" id="hours" placeholder="10am - 10pm">
+                        </div>
+                        <div>
+                            <label for="group">Group Size</label>
+                            <input type="text" name="group" id="group" placeholder="1-4 or Any">
+                        </div>
+                        <div>
+                            <label for="website">Website Link</label>
+                            <input type="text" name="website" id="website" placeholder="https://www.exampleActivity.com/">
+                        </div>
+                        <div>
+                            <label for="images">Images<br>
+                                <span class="form-details">Have any high quality pictures to share? (Select up to 3)</span>
+                            </label>
+                            <input type="file" name="group" class="images" placeholder="1-4 or Any">
+                            <input type="file" name="group" class="images" placeholder="1-4 or Any">
+                            <input type="file" name="group" class="images" placeholder="1-4 or Any">
+                        </div>
+                        <div>
+                            <label for="details">Additional Details</label>
+                            <textarea name="details" id="details" placeholder="Anything else others need to know about the activity. For example: summer activity or an ingredients list"></textarea>
+                        </div>
+                        <div class="form-btn-box">
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
 
         <img class="footer-logo" src="img/logo/Logo-med.png" alt="Help I Live In Rexburg's Logo">
@@ -105,6 +209,5 @@
             <p>&copy;Copyright <span id="full-year"></span> | All Rights Reserved</p>
         </section>
     </footer>
-    <script async src="https://www.tiktok.com/embed.js"></script>
 </body>
 </html>

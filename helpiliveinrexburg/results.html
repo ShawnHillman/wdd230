@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/main.js"></script>
+    <script defer src="js/results.js"></script>
 </head>
 
 <body>
@@ -35,8 +36,8 @@
         </section>
         <section class="page-header">
             <h1>
-                <span class="ph-main">Events</span>
-                <span class="ph-sub">Local Fun</span>
+                <span class="ph-main">Thank You</span>
+                <span class="ph-sub">for the Help!</span>
             </h1>
         </section>
     </header>
@@ -57,60 +58,11 @@
         </div>
     </nav>
 
-    <main id="events-main">
-        <section id="events-box">
-            <div class="home-event">
-                <div class="event-details">
-                    <h3>Joy to the World Concert</h3>
-                    <p>A Christmas Community Concert<br>
-                        Romance Theatre<br>
-                        Free Admission with can of food</p>
-                </div>
-                <div class="event-datetime">
-                    <p>
-                        <span class="event-date">Dec 5</span>
-                        <span class="event-time">@ 7pm</span>
-                    </p>
-                </div>
-                <div class="event-img">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="home-event">
-                <div class="event-details">
-                    <h3>BYU-I Graduation</h3>
-                    <p>Commencement Ceremonies<br>
-                        BYU-I Campus<br>
-                        10am 1pm 3pm & 5pm</p>
-                </div>
-                <div class="event-datetime">
-                    <p>
-                        <span class="event-date">Dec 15</span>
-                        <span class="event-time">@ 10am - 5pm</span>
-                    </p>
-                </div>
-                <div class="event-img">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="home-event">
-                <div class="event-details">
-                    <h3>Holiday Movies Binge</h3>
-                    <p>Binge Holiday Movies with us!<br>
-                        Romance Theatre<br>
-                        Different Movies every night!</p>
-                </div>
-                <div class="event-datetime">
-                    <p>
-                        <span class="event-date">Dec 21 22 & 23</span>
-                        <span class="event-time">@ 7pm</span>
-                    </p>
-                </div>
-                <div class="event-img">
-                    <img src="" alt="">
-                </div>
-            </div>
-        </section>
+    <main id="contact-main">
+        <div id="results-sum hide">
+
+        </div>
+        <a id="results-btn" href="contact.html">Back to Contact Page</a>
 
         <img class="footer-logo" src="img/logo/Logo-med.png" alt="Help I Live In Rexburg's Logo">
     </main>
@@ -154,5 +106,13 @@
             <p>&copy;Copyright <span id="full-year"></span> | All Rights Reserved</p>
         </section>
     </footer>
+
+    <script>
+        const resultsList = document.getElementById('results-sum');
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            resultsList.append(`${name}: ${value}`);
+            resultsList.append(document.createElement('br'));
+        });
+    </script>
 </body>
 </html>

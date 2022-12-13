@@ -3,6 +3,7 @@ const actRequestURL = './json/activities.json';
 function displayAct(item) {
     let card = document.createElement('div');
     let name = document.createElement('h3');
+    let address = document.createElement('p');
     let price = document.createElement('p');
     let time = document.createElement('p');
     let hours = document.createElement('p');
@@ -15,6 +16,7 @@ function displayAct(item) {
     let drpDwn = document.createElement('div');
 
     name.textContent = item.name;
+    address.textContent = 'Address: ' + item.location;
     price.textContent = 'Price: ' + item.price;
     time.textContent = 'Time: ' + item.time;
     hours.textContent = 'Hours: ' + item.hours;
@@ -36,9 +38,10 @@ function displayAct(item) {
     imageBox.appendChild(image2);
     imageBox.appendChild(image3);
     imageBox.classList.add('hid');
-    imageBox.classList.add('img-box')
+    imageBox.classList.add('img-box');
 
     card.appendChild(name);
+    card.appendChild(address);
     card.appendChild(price);
     card.appendChild(time);
     card.appendChild(hours);
